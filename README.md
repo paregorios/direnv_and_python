@@ -1,5 +1,7 @@
 # direnv and python for macOS
 
+This is what works for me currently. Note that the `direnv` wiki addresses various methods for managing python with `direnv`: https://github.com/direnv/direnv/wiki/Python
+
 1. Install [direnv](https://direnv.net/) and [pyenv](https://github.com/pyenv/pyenv). I use [homebrew](https://brew.sh/) for these tasks. There may be setup and/or shell integration steps for these tools that I'm omitting (I can't remember), so check their docs.
 2. Determine the python version(s) you will likely be using and install them with `pyenv` at the command line (i.e., in Terminal). 
     - `pyenv versions` will show you the versions already locally installed.
